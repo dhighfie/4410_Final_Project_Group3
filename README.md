@@ -98,7 +98,7 @@ Each model:
 - Metrics: MAE, RMSE.
 
 **LSTM**
-
+-Uses on mopst recent 30% of Data
 - Input: past 30 days of features.
 - Architecture:
   - LSTM(128, return_sequences=True, L2 regularization) + Dropout(0.2)
